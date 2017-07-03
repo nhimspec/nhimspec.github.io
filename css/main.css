@@ -11,7 +11,7 @@
 }
 
 .img-profile .name-profile{
- 	left: -17.3%;
+ 	left: -17.5%;
 	position: absolute;
 	top: 17.5%;
 	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
@@ -652,6 +652,7 @@
 
     position: relative;
 	margin-bottom:30px;
+	border:1px solid #cd5353;
 }
 
 
@@ -705,6 +706,14 @@
 	text-transform:none;
 	position:relative;
 	top:-5px;
+}
+
+.item a .item-img{
+	width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 
